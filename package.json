@@ -1,0 +1,27 @@
+{
+  "name": "request",
+  "version": "1.0.0",
+  "description": "封装fetch",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run server & npm run client",
+    "server": "nodemon server/server.mjs",
+    "client": "serve src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visnix/request.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visnix/request/issues"
+  },
+  "homepage": "https://github.com/visnix/request#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "serve": "^11.3.2"
+  }
+}
